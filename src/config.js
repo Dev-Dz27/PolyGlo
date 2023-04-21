@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'PolyGlo',
 
   origin: 'https://polyglo.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'PolyGlo — Language training center',
+  description: 'PolyGlo is a private language school in Mostaganem, Algeria that specializes in teaching kids. We offer courses in English, French, Spanish, German, and Arabic, taught by experienced teachers who use innovative methods to help students achieve their language goals. Contact us to learn more and enroll your child.',
 };
