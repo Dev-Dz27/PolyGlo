@@ -51,7 +51,7 @@ const RootLayout = ({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="bg-white tracking-tight  antialiased  ">
+      <body className="bg-white tracking-tight text-gray-900  antialiased  dark:bg-slate-900 dark:text-slate-100">
         <Providers>
           <Announcement {...announcementDataTranslated} />
           <Head />
