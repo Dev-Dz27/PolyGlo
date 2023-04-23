@@ -25,7 +25,7 @@ const RootLayout = ({
   children,
   params,
 }: {
-  
+  children: any;
   params: { lang: string; country: string };
 }) => {
 
