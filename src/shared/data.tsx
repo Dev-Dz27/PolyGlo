@@ -184,7 +184,7 @@ export const heroData: HeroProps = {
     <>
       Unlock the world <span className="hidden md:inline">of language</span>{" "}
       <span>with</span>{" "}
-      <span className="text-yellow-500 dark:text-yellow-400 sm:whitespace-nowrap ">
+      <span className="text-yellow-500 dark:text-amber-500 sm:whitespace-nowrap ">
         PolyGlo
       </span>
     </>
