@@ -175,7 +175,7 @@ export const headerDataFr: HeaderProps = {
   isSticky: true,
   showToggleTheme: true,
   showRssFeed: false,
-  position: "centre",
+  position: "center",
 };
 
 // Hero data
