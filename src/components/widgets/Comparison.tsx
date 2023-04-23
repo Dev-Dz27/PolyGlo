@@ -1,9 +1,8 @@
 import { IconCheck, IconMinus } from '@tabler/icons-react';
-import { comparisonData } from '~/shared/data';
 import HeaderWidget from '../common/HeaderWidget';
+import { ComparisonProps, } from '~/shared/types';
 
-const Comparison = () => {
-  const { header, columns } = comparisonData;
+const Comparison = ({ header, columns }: ComparisonProps ) => {
 
   return (
     <section id="comparison">

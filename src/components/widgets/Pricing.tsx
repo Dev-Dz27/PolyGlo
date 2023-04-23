@@ -1,9 +1,9 @@
 import { IconCheck } from '@tabler/icons-react';
-import { pricingData } from '~/shared/data';
+import { PricingProps } from '~/shared/types';
 import HeaderWidget from '../common/HeaderWidget';
 
-const Pricing = () => {
-  const { header, prices } = pricingData;
+const Pricing = ({ header, prices } :PricingProps ) => {
+
 
   return (
     <section className="bg-primary-50 dark:bg-slate-800" id="pricing">
@@ -11,7 +11,7 @@ const Pricing = () => {
         {header && <HeaderWidget header={header} titleClassname="text-2xl sm:text-3xl" />}
         <div className="flex items-stretch justify-center">
           <div className="grid grid-cols-3 gap-3 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-            {prices.map(({ title, value, period, texts, link, hasRibbon, ribbonTitle }, index) => (
+            {prices?.map(({ title, value, period, texts, link, hasRibbon, ribbonTitle }, index) => (
               <div
                 className="col-span-3 mx-auto flex w-full sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1"
                 key={`item-pricing-${index}`}

@@ -110,11 +110,12 @@ const Form = ({ title, description, inputs, radioBtns, textarea, checkboxes, btn
                   <input
                     type="checkbox"
                     name={label}
+                    id={`checkbox-${index}`}
                     checked={checkedState[index]}
                     onChange={() => changeCheckboxHandler(index)}
                     className="cursor-pointer"
                   />
-                  <label className="ml-2">{label}</label>
+                  <label htmlFor={`checkbox-${index}`} className="ml-2">{label}</label>
                 </div>
               ))}
             </div>

@@ -1,7 +1,6 @@
-import { footerData2 } from '~/shared/data';
+import { FooterProps } from '~/shared/types';
 
-const Footer2 = () => {
-  const { links, columns, socials, footNote } = footerData2;
+const Footer2 = ({ links, columns, socials, footNote } : FooterProps) => {
 
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6">

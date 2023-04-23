@@ -1,9 +1,8 @@
-import { contactData } from '~/shared/data';
 import Form from '../common/Form';
 import HeaderWidget from '../common/HeaderWidget';
+import { ContactProps } from '~/shared/types';
 
-const Contact = () => {
-  const { header, content, items, form } = contactData;
+const Contact = ({ header, content, items, form }: ContactProps) => {
 
   return (
     <section className="bg-primary-50 dark:bg-slate-800" id="contact">

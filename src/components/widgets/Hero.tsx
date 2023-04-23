@@ -1,8 +1,13 @@
-import Image from 'next/image';
-import { heroData } from '~/shared/data';
+import Image from "next/image";
+import { HeroProps } from "~/shared/types";
 
-const Hero = () => {
-  const { title, subtitle, callToAction, callToAction2, image } = heroData;
+const Hero = ({
+  title,
+  subtitle,
+  callToAction,
+  callToAction2,
+  image,
+}: HeroProps) => {
 
   return (
     <section id="heroOne">
@@ -15,24 +20,33 @@ const Hero = () => {
               </h1>
             )}
             <div className="mx-auto max-w-3xl">
-              {subtitle && <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">{subtitle}</p>}
+              {subtitle && (
+                <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">
+                  {subtitle}
+                </p>
+              )}
               <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
                 {callToAction && callToAction.text && callToAction.href && (
                   <div className="flex w-full sm:w-auto">
                     <a
                       className="btn btn-primary w-full sm:mb-0 "
                       href={callToAction.href}
-                      target="_blank"
+                      // target="_blank"
                       rel="noopener noreferrer"
                     >
-                  {callToAction.text}    {callToAction.icon && <callToAction.icon className="ml-1  h-5 w-5 hover:translate-x-2 duration-300 ease-in-out" />} 
+                      {callToAction.text}{" "}
+                      {callToAction.icon && (
+                        <callToAction.icon className="ml-1  h-5 w-5 duration-300 ease-in-out hover:translate-x-2" />
+                      )}
                     </a>
                   </div>
                 )}
                 {callToAction2 && callToAction2.text && callToAction2.href && (
                   <div className="flex w-full sm:w-auto">
                     <a className="btn w-full" href={callToAction2.href}>
-                      {callToAction2.icon && <callToAction2.icon className="mr-1 -ml-1.5 h-5 w-5" />}{' '}
+                      {callToAction2.icon && (
+                        <callToAction2.icon className="-ml-1.5 mr-1 h-5 w-5" />
+                      )}{" "}
                       {callToAction2.text}
                     </a>
                   </div>

@@ -1,11 +1,10 @@
-import { faqsData } from '~/shared/data';
+import { FAQsProps } from '~/shared/types';
 import HeaderWidget from '../common/HeaderWidget';
 import Collapse from '../common/Collapse';
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react';
 import { Item } from '~/shared/types';
 
-const FAQs2 = () => {
-  const { header, items } = faqsData;
+const FAQs2 = ({ header, items } :FAQsProps ) => {
 
   return (
     <section id="faqsTwo">
