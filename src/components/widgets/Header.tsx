@@ -21,12 +21,7 @@ const Header = ({
   position,
 }: {
   params: { lang: string; country: string };
-  links: HeaderProps['links']; // add HeaderProps['links'] type
-  actions: HeaderProps['actions']; // add HeaderProps['actions'] type
-  isSticky: HeaderProps['isSticky']; // add HeaderProps['isSticky'] type
-  showToggleTheme: HeaderProps['showToggleTheme']; // add HeaderProps['showToggleTheme'] type
-  showRssFeed: HeaderProps['showRssFeed']; // add HeaderProps['showRssFeed'] type
-  position: HeaderProps['position']; // add HeaderProps['position'] type
+
 }) => {
   // const { links, actions, isSticky, showToggleTheme, showRssFeed, position } =
   //   headerData;
