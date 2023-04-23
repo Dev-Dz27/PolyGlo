@@ -64,7 +64,7 @@ export const announcementData: AnnouncementProps = {
   title: "NEW",
   callToAction: {
     text: "Saturday - Friday 09:00 AM - 09:30 PM",
-    href: "https://beta.nextjs.org/docs/app-directory-roadmap",
+    href: "/contact",
   },
   callToAction2: {
     text: "Follow @polyglo27 on Twitter",
@@ -76,7 +76,7 @@ export const announcementDataFr: AnnouncementProps = {
   title: "Neauveau",
   callToAction: {
     text: "Samedi - Vendredi 09 : 00 AM - 09 : 30 PM ",
-    href: "https://beta.nextjs.org/docs/app-directory-roadmap",
+    href: "/contact",
   },
   callToAction2: {
     text: "Suivez @polyglo27 sur Twitter",
