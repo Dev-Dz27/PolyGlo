@@ -55,7 +55,7 @@ const RootLayout = ({
         <Providers>
           <Announcement {...announcementDataTranslated} />
           <Head />
-          <Header params={params} {...headerDataTranslated} />
+          <Header params={params} headerData={headerDataTranslated} />
           <main>{children}</main>
           <Footer2  {...footerData2Translated} />
         </Providers>

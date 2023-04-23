@@ -13,18 +13,14 @@ import LanguageSwitcher from "../atoms/LanguageSwitcher";
 
 const Header = ({
   params,
-  links,
-  actions,
-  isSticky,
-  showToggleTheme,
-  showRssFeed,
-  position,
+  headerData,
 }: {
+  headerData:HeaderProps,
   params: { lang: string; country: string };
 
 }) => {
-  // const { links, actions, isSticky, showToggleTheme, showRssFeed, position } =
-  //   headerData;
+  const { links, actions, isSticky, showToggleTheme, showRssFeed, position } =
+    headerData;
 
   const updatedIsDropdownOpen =
     links &&
