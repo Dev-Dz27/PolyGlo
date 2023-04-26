@@ -52,6 +52,7 @@ import kidsFrontImg from "~/assets/images/kids-front.jpg";
 import kidsBackImg from "~/assets/images/kids-back.jpg";
 // import heroImg from '~/assets/images/hero.jpg';
 import heroImg from "~/assets/images/main.jpg";
+import HeroFrImg from "~/assets/images/HeroFr.jpg";
 // import gasImg from '~/assets/images/gas.jpg';
 import KidImg from "~/assets/images/colorFullKid.png";
 import nextJsLogo from "~/assets/images/nextjs-logo.png";
@@ -247,7 +248,7 @@ export const heroDataFr: HeroProps = {
     href: "#features3",
   },
   image: {
-    src: heroImg,
+    src: HeroFrImg,
     alt: "Hero PolyGlo",
   },
 };

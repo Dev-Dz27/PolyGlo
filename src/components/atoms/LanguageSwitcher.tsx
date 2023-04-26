@@ -1,11 +1,8 @@
-"use client";
+// "use client";
 import Link from "next/link";
-import { usePathname, useRouter } from 'next/navigation';
-
 import { IconWorld, } from "@tabler/icons-react";
 
 const LanguageSwitcher = ({ currentLang, currentCountry, pageUrl }: {currentLang: string, currentCountry: string, pageUrl: string}) => {
-const pageurl = usePathname()
   return (
     <div className="ml-4 flex items-center space-x-1  ">
       <p className=" text-gray-500">
