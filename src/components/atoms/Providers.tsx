@@ -9,7 +9,6 @@ export interface ProvidersProps {
 const Providers = ({ children }: ProvidersProps) => (
   <ThemeProvider attribute="class" disableTransitionOnChange>
     {children}
-
     <Analytics />
   </ThemeProvider>
 );
