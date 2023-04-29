@@ -223,7 +223,9 @@ export const heroDataFr: HeroProps = {
     <>
       Débloquez le monde <span className="hidden md:inline">de la langue</span>{" "}
       <span>avec</span>{" "}
-      <span className="text-yellow-500 dark:text-amber-500 sm:whitespace-nowrap ">PolyGlo</span>
+      <span className="text-yellow-500 dark:text-amber-500 sm:whitespace-nowrap ">
+        PolyGlo
+      </span>
     </>
   ),
   subtitle: (
@@ -886,7 +888,8 @@ export const content2DataFr: ContentProps = {
       title: "Offrez à votre enfant le cadeau de la langue",
     },
     {
-      title: "Apprendre une nouvelle langue renforce les compétences cognitives",
+      title:
+        "Apprendre une nouvelle langue renforce les compétences cognitives",
     },
     {
       title: "Compétences linguistiques = opportunités futures",
@@ -1676,6 +1679,8 @@ export const contactData: ContactProps = {
     },
   ],
   form: {
+    SuccessFormMsg:
+      "Your message has been sent successfully, you will soon receive a response.",
     title: "Ready to Get Started?",
     inputs: [
       {
@@ -1735,6 +1740,8 @@ export const contactDataFr: ContactProps = {
     },
   ],
   form: {
+    SuccessFormMsg:
+      "Votre message a été envoyé avec succès, vous allez bientôt recevoir une réponse.",
     title: "Prêt à commencer ?",
     inputs: [
       {
@@ -1791,6 +1798,9 @@ export const contact2Data: ContactProps = {
     },
   ],
   form: {
+    SuccessFormMsg:
+    "Your message has been sent successfully, you will soon receive a response.",
+
     title: "Ready to Get Started?",
     description:
       "Mauris consequat, urna vel varius auctor, enim risus ornare felis, at hendrerit erat justo eu justo. Curabitur sagittis efficitur aliquam. Duis eget porttitor lectus, vel pharetra ex. Nam volutpat nibh ut porta egestas.",
@@ -1885,6 +1895,9 @@ export const contact2DataFr: ContactProps = {
     },
   ],
   form: {
+    SuccessFormMsg:
+      "Votre message a été envoyé avec succès, vous allez bientôt recevoir une réponse.",
+
     title: "Prêt à commencer?",
     description:
       "Mauris consequat, urna vel varius auctor, enim risus ornare felis, at hendrerit erat justo eu justo. Curabitur sagittis efficitur aliquam. Duis eget porttitor lectus, vel pharetra ex. Nam volutpat nibh ut porta egestas.",

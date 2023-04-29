@@ -61,6 +61,7 @@ interface SmallForm {
 }
 
 interface FormProps {
+  SuccessFormMsg?: string;
   title?: string;
   description?: string;
   inputs: Array<Input>;
