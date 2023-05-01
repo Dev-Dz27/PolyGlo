@@ -64,7 +64,7 @@ const Form = ({
   };
 
   const resetForm = () => {
-    setInputValues({});
+    setInputValues([]);
     setRadioBtnValue("");
     setTextareaValues("");
     setCheckedState(new Array(checkboxes && checkboxes.length).fill(false));
