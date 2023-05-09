@@ -235,7 +235,7 @@ export const heroDataFr: HeroProps = {
           Chez PolyGlo,
         </span>{" "}
         nous croyons que l'apprentissage d'une langue est un voyage qui devrait
-        être à la fois <em>amusant</em> et <em>enrichissant</em> pour les
+        être à la fois <em>amusant</em> et <em>enrichissant</em> {" "} pour les
         enfants.
       </span>{" "}
     </>
