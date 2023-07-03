@@ -42,4 +42,9 @@ If you have any questions, contributions, ideas, bug fixes, or feature suggestio
 
 ---
 
+## Credit
+
+This project is based on the work of [onwidget](https://github.com/onwidget).
+
+
 **Note:** This is a mockup page and does not reflect the actual final website. The links and functionality mentioned here are for demonstration purposes only.
