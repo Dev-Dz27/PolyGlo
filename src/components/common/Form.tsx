@@ -89,7 +89,7 @@ const Form = ({
     }, 5000);
     } catch (error) {
       setFormSubmitSuccessful(false);
-      setError(error.message || "An error occurred while submitting the form.");
+      // setError(error.message || "An error occurred while submitting the form.");
     }
     setFormSubmitted(true);
   };
@@ -152,7 +152,7 @@ const Form = ({
               <div className="flex flex-wrap">
                 {radioBtns.radios.map(({ label }, index) => (
                   <div
-                  required
+                  // required
                     key={`radio-btn-${index}`}
                     className="mr-4 items-baseline"
                   >
