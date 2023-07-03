@@ -40,11 +40,11 @@ If you have any questions, contributions, ideas, bug fixes, or feature suggestio
 
 ![Home page](https://raw.githubusercontent.com/Dev-Dz27/portfolio/main/public/polyglo.vercel.app.jpeg)
 
----
 
 ## Credit
 
 This project is based on the work of [onwidget](https://github.com/onwidget).
 
+---
 
 **Note:** This is a mockup page and does not reflect the actual final website. The links and functionality mentioned here are for demonstration purposes only.
