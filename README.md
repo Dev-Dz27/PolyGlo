@@ -3,7 +3,8 @@
 A dynamic language teaching platform designed to enhance language learning experiences. With a global reach and a user-friendly interface, PolyGlo offers a comprehensive range of features for effective language acquisition.
 
 <!-- [![PolyGlo](https://raw.githubusercontent.com/Dev-Dz27/portfolio/main/public/polyglo.vercel.app.jpeg)](https://polyglo.vercel.app) -->
-[![PolyGlo](/PolyGlo.png)](https://polyglo.vercel.app)
+
+[![PolyGlo](https://raw.githubusercontent.com/Dev-Dz27/PolyGlo/main/public/PolyGlo.png?token=GHSAT0AAAAAAB56S6CWF2WG6M6A5CA2Z2HOZFCXUIA)](https://polyglo.vercel.app)
 
 PolyGlo is a leading language teaching school in Mostaganem, Algeria. They offer a comprehensive range of features for effective language acquisition.
 
