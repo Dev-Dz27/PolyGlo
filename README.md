@@ -40,6 +40,7 @@ If you have any questions, contributions, ideas, bug fixes, or feature suggestio
 
 ![Home page](https://raw.githubusercontent.com/Dev-Dz27/portfolio/main/public/polyglo.vercel.app.jpeg)
 
+---
 
 ## Credit
 
