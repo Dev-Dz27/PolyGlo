@@ -1,3 +1,4 @@
+
 import Hero from "~/components/widgets/Hero";
 import Features3 from "~/components/widgets/Features3";
 import Content from "~/components/widgets/Content";
@@ -33,6 +34,8 @@ import {
   contactData,
   contactDataFr,
 } from "~/shared/data";
+import FacebookMsg from "~/components/widgets/FacebookMsg";
+
 
 export default async function Home({
   params,
@@ -98,6 +101,7 @@ export default async function Home({
       <Team  {...teamDataTranslated} />
       <Contact {...contactDataTranslated}/>
       <CallToAction2 {...callToActionDataTranslated} />
+      <FacebookMsg />
      
     </>
   );
