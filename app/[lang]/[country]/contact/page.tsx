@@ -25,8 +25,8 @@ const Page = ({
     params.lang === "en" ? featuresData2 : featuresData2Fr;
   return (
     <>
-      <Contact2 {...contact2DataTranslated} />
-      <CallToAction cta={callToActionDataTranslated} />
+      {/* <Contact2 {...contact2DataTranslated} /> */}
+      {/* <CallToAction cta={callToActionDataTranslated} /> */}
 
       <div className="relative h-0 pb-[56.25%]">
   <iframe

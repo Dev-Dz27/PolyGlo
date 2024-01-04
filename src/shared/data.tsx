@@ -288,7 +288,7 @@ export const faqsData: FAQsProps = {
   items: [
     {
       title: "What ages do you teach?",
-      description: `We offer language programs for children aged 3 to 18 years old.`,
+      description: `We offer language programs for everyone.`,
     },
     {
       title: "What languages do you teach?",
@@ -324,7 +324,7 @@ export const faqsDataFr: FAQsProps = {
   items: [
     {
       title: "Quels sont les âges que vous enseignez ?",
-      description: `Nous offrons des programmes de langues pour les enfants de 3 à 18 ans.`,
+      description: `Nous offrons des programmes de langues pour tout le monde.`,
     },
     {
       title: "Quelles langues enseignez-vous ?",

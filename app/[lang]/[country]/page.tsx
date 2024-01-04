@@ -101,7 +101,7 @@ export default async function Home({
       <Team  {...teamDataTranslated} />
       <Contact {...contactDataTranslated}/>
       <CallToAction2 {...callToActionDataTranslated} />
-      <FacebookMsg />
+      {/* <FacebookMsg /> */}
      
     </>
   );
