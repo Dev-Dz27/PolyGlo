@@ -37,7 +37,7 @@ const Contact = ({ header, content, items, form }: ContactProps) => {
                 ))}
               </ul>
             </div>
-            <Form {...form} btnPosition="center" />
+            {/* <Form {...form} btnPosition="center" /> */}
           </div>
         </div>
       </div>

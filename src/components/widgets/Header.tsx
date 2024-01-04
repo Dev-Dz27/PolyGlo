@@ -60,8 +60,9 @@ const Header = ({
   };
 
   const pageUrl = usePathname();
+  
 
-  const modifiedPageUrl = pageUrl.replace(/\/(en|fr)\/us/, '');
+  const modifiedPageUrl = pageUrl?.replace(/\/(en|fr)\/us/, '');
   const [currentLang, setcurrentLang] = useState("")
   const [currentCountry, setCurrentCountry] = useState("")
   const [pathName, setPathName] = useState("")
@@ -189,7 +190,8 @@ const Header = ({
         
            <LanguageSwitcher
             currentLang={currentLang}
-            currentCountry={currentCountry} pageUrl={modifiedPageUrl}          />
+            currentCountry={currentCountry} 
+            pageUrl={modifiedPageUrl}          />
    
 
             {actions && actions.length > 0 && (
