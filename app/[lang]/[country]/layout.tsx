@@ -4,7 +4,7 @@ import Header from "~/components/widgets/Header";
 import Announcement from "~/components/widgets/Announcement";
 import Footer2 from "~/components/widgets/Footer2";
 
-import { Inter as CustomFont } from "@next/font/google";
+import { Inter as CustomFont } from "next/font/google";
 import "~/assets/styles/base.css";
 import Head from "./head";
 import { announcementData, announcementDataFr, footerData, footerData2, footerData2Fr, headerData, headerDataFr } from "~/shared/data";
