@@ -62,7 +62,7 @@ const Header = ({
   const pageUrl = usePathname();
   
 
-  const modifiedPageUrl = pageUrl?.replace(/\/(en|fr)\/us/, '');
+  const modifiedPageUrl = pageUrl?.replace(/\/(en|fr)\/us/, '')  || '';
   const [currentLang, setcurrentLang] = useState("")
   const [currentCountry, setCurrentCountry] = useState("")
   const [pathName, setPathName] = useState("")
