@@ -235,7 +235,7 @@ export const heroDataFr: HeroProps = {
           Chez PolyGlo,
         </span>{" "}
         nous croyons que l'apprentissage d'une langue est un voyage qui devrait
-        être à la fois <em>amusant</em> et <em>enrichissant</em> {" "} pour les
+        être à la fois <em>amusant</em> et <em>enrichissant</em> pour les
         enfants.
       </span>{" "}
     </>
@@ -1799,7 +1799,7 @@ export const contact2Data: ContactProps = {
   ],
   form: {
     SuccessFormMsg:
-    "Your message has been sent successfully, you will soon receive a response.",
+      "Your message has been sent successfully, you will soon receive a response.",
 
     title: "Ready to Get Started?",
     description:
@@ -2082,14 +2082,23 @@ export const footerData: FooterProps = {
     },
   ],
   socials: [
-    { label: "Twitter", icon: IconBrandTwitter, href: "#" },
-    { label: "Instagram", icon: IconBrandInstagram, href: "#" },
-    { label: "Facebook", icon: IconBrandFacebook, href: "#" },
-    { label: "RSS", icon: IconRss, href: "#" },
+    // { label: "Twitter", icon: IconBrandTwitter, href: "#" },
+    {
+      label: "Instagram",
+      icon: IconBrandInstagram,
+      href: "https://www.instagram.com/polyglo27/",
+    },
+    {
+      label: "Facebook",
+      icon: IconBrandFacebook,
+      href: "https://www.facebook.com/polyglo27/",
+    },
+    // { label: "RSS", icon: IconRss, href: "#" },
+
     {
       label: "Github",
       icon: IconBrandGithub,
-      href: "https://github.com/onwidget/tailnext",
+      href: "https://github.com/Dev-Dz27",
     },
   ],
   footNote: (
@@ -2098,10 +2107,10 @@ export const footerData: FooterProps = {
       Made by{" "}
       <a
         className="text-blue-600 hover:underline dark:text-gray-200"
-        href="mailto:th.dev.design@gmail.com"
+        href="https://devdzportfolio.vercel.app/"
       >
         {" "}
-        DevDz
+        CraftedX
       </a>{" "}
       · All rights reserved.
     </div>
@@ -2228,14 +2237,21 @@ export const footerDataFr: FooterProps = {
     },
   ],
   socials: [
-    { label: "Twitter", icon: IconBrandTwitter, href: "#" },
-    { label: "Instagram", icon: IconBrandInstagram, href: "#" },
-    { label: "Facebook", icon: IconBrandFacebook, href: "#" },
-    { label: "RSS", icon: IconRss, href: "#" },
+    {
+      label: "Instagram",
+      icon: IconBrandInstagram,
+      href: "https://www.instagram.com/polyglo27/",
+    },
+    {
+      label: "Facebook",
+      icon: IconBrandFacebook,
+      href: "https://www.facebook.com/polyglo27/",
+    },
+
     {
       label: "Github",
       icon: IconBrandGithub,
-      href: "https://github.com/onwidget/tailnext",
+      href: "https://github.com/Dev-Dz27",
     },
   ],
   footNote: (
@@ -2244,10 +2260,10 @@ export const footerDataFr: FooterProps = {
       Fabriqué par{" "}
       <a
         className="text-blue-600 hover:underline dark:text-gray-200"
-        href="mailto:th.dev.design@gmail.com"
+        href="https://devdzportfolio.vercel.app/"
       >
         {" "}
-        DevDz
+        CraftedX
       </a>{" "}
       · Tous droits réservés.
     </div>
@@ -2281,10 +2297,16 @@ export const footerData2: FooterProps = {
     },
   ],
   socials: [
-    { label: "Twitter", icon: IconBrandTwitter, href: "#" },
-    { label: "Instagram", icon: IconBrandInstagram, href: "#" },
-    { label: "Facebook", icon: IconBrandFacebook, href: "#" },
-    { label: "RSS", icon: IconRss, href: "#" },
+    {
+      label: "Instagram",
+      icon: IconBrandInstagram,
+      href: "https://www.instagram.com/polyglo27/",
+    },
+    {
+      label: "Facebook",
+      icon: IconBrandFacebook,
+      href: "https://www.facebook.com/polyglo27/",
+    },
     {
       label: "Github",
       icon: IconBrandGithub,
@@ -2299,10 +2321,10 @@ export const footerData2: FooterProps = {
       Made by{" "}
       <a
         className="text-blue-600 hover:underline dark:text-gray-200"
-        href="mailto:th.dev.design@gmail.com"
+        href="https://devdzportfolio.vercel.app/"
       >
         {" "}
-        DevDz
+        CraftedX
       </a>{" "}
       · All rights reserved.
     </div>
@@ -2336,7 +2358,7 @@ export const footerData2Fr: FooterProps = {
     },
   ],
   socials: [
-    { label: "Twitter", icon: IconBrandTwitter, href: "#" },
+    // { label: "Twitter", icon: IconBrandTwitter, href: "#" },
     {
       label: "Instagram",
       icon: IconBrandInstagram,
@@ -2347,7 +2369,7 @@ export const footerData2Fr: FooterProps = {
       icon: IconBrandFacebook,
       href: "https://www.facebook.com/polyglo27/",
     },
-    { label: "RSS", icon: IconRss, href: "#" },
+    // { label: "RSS", icon: IconRss, href: "#" },
     {
       label: "Github",
       icon: IconBrandGithub,
@@ -2362,10 +2384,10 @@ export const footerData2Fr: FooterProps = {
       Réalisé par{" "}
       <a
         className="text-blue-600 hover:underline dark:text-gray-200"
-        href="mailto:th.dev.design@gmail.com"
+        href="https://devdzportfolio.vercel.app/"
       >
         {" "}
-        DevDz
+        CraftedX
       </a>{" "}
       · Tous droits réservés.
     </div>
